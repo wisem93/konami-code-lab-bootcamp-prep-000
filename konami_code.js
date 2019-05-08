@@ -13,7 +13,7 @@ const codes = [
 
 let index = 0;
 
-const page = document.getElementsByTagName('body');
+var page = document.getElementsByTagName('body');
 
 page.addEventListener('click', function(event) {
   console.log('the page was clicked Morty!');
