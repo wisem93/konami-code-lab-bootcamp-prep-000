@@ -18,10 +18,15 @@ function init() {
   // your code here
   document.body.addEventListener('keydown', function(e) {
     const key = e.key;
-    console.log(key);
     
     if (code[index] === key) {
-      ++index;
+      index++;
+      
+        if (index === code.length -1) {
+          alert("You did it Morty");
+          index = 0;
+        }
+      
     } else {
       index = 0;
     }
