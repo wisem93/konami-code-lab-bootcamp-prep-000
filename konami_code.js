@@ -13,14 +13,12 @@ const codes = [
 
 let index = 0;
 
-var page = document.;
-
-page.addEventListener('click', function(event) {
-  console.log('the page was clicked Morty!');
-});
 
 function init() {
   // your code here
+  document.body.addEventListener('keydown', function(e) {
+    
+  });
   const key = e.key;
   
   if (key === codes[index]) {
