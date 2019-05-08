@@ -22,7 +22,7 @@ function init() {
     if (codes[index] === key) {
       index++;
       
-        if (index === codes.length -1) {
+        if (index === codes.length) {
           alert("You did it Morty");
           index = 0;
         }
