@@ -13,10 +13,10 @@ const codes = [
 
 let index = 0;
 
-var page = document.body;
-
 page.addEventListener('click', function(event) {
-  console.log('the page was clicked Morty!');
+ var page = document.body;
+
+ console.log('the page was clicked Morty!');
 });
 
 function init() {
