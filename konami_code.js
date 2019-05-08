@@ -21,7 +21,11 @@ function init() {
     index++;
     
     if (index === codes.length) {
+      alert("You must know the secret code!");
       
+      index = 0;
     }
+  } else {
+    index = 0;
   }
 }
