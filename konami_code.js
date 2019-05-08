@@ -13,6 +13,12 @@ const codes = [
 
 let index = 0;
 
+const body = document.body;
+
+body.addEventListener('click', function(event) {
+  console.log('the page was clicked Morty!');
+});
+
 function init() {
   // your code here
   const key = e.key;
