@@ -13,9 +13,9 @@ const codes = [
 
 let index = 0;
 
-const body = document.getElementsByTagName('body');
+const page = document.getElementsByTagName('body');
 
-body.addEventListener('click', function(event) {
+page.addEventListener('click', function(event) {
   console.log('the page was clicked Morty!');
 });
 
