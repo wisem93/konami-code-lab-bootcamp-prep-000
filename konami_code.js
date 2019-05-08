@@ -19,10 +19,10 @@ function init() {
   document.body.addEventListener('keydown', function(e) {
     const key = e.key;
     
-    if (code[index] === key) {
+    if (codes[index] === key) {
       index++;
       
-        if (index === code.length -1) {
+        if (index === codes.length -1) {
           alert("You did it Morty");
           index = 0;
         }
